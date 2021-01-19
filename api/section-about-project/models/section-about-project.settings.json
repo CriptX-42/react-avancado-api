@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "section_about_projects",
+  "info": {
+    "name": "sectionAboutProject"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "sectionAboutProject": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-project"
+    }
+  }
+}
