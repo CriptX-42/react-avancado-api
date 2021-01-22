@@ -2,11 +2,12 @@
   "collectionName": "components_page_modules",
   "info": {
     "name": "modules",
-    "icon": "newspaper"
+    "icon": "newspaper",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "tile": {
+    "title": {
       "type": "string",
       "required": true
     },

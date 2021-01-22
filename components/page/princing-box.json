@@ -2,7 +2,8 @@
   "collectionName": "components_page_princing_boxes",
   "info": {
     "name": "princingBox",
-    "icon": "money-bill-alt"
+    "icon": "money-bill-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,14 +15,8 @@
       "type": "integer",
       "required": true
     },
-    "priceInstallments": {
+    "priceInstallment": {
       "type": "integer",
-      "required": true
-    },
-    "benefits": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.benefits",
       "required": true
     },
     "button": {
@@ -29,6 +24,9 @@
       "repeatable": false,
       "component": "page.button",
       "required": true
+    },
+    "benefits": {
+      "type": "richtext"
     }
   }
 }
